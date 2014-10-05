@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-	margin: 3% 0;
+	margin: 30px 0 0 0;
 	width: 100%;
 }
 
@@ -33,6 +33,30 @@ span.date, #description .content{
 span.emphasized {
 	color: #ca0032;
 }
+
+/* Contact Facebook	*/
+.contact-fb, .icon-fb{
+	 	 background-color:#ca0032;
+ 	 margin-left: auto;
+ 	 margin-right: auto;
+ 	 padding: 18px;
+}
+
+ .icon-fb{
+ 	position: absolute;
+ 	top :114px;
+ 	right: -6px;
+ 	border-radius: 6px;
+ }
+
+.construction-message{
+}
+
+
+ .contact-fb{
+
+ }
+
 
 /*	Contenu principal	*/
 .row#main-content{
@@ -57,7 +81,7 @@ h3, #achat-billets span.emphasized, .btn-lg {
 
 
 h3 {
-	margin-top: 30px;
+	margin-top: 0;
 	margin-bottom: 30px;
 }
 
@@ -72,6 +96,7 @@ h3 {
 
 .btn-lg{
 	width : 50%;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 1.5em;
@@ -84,10 +109,14 @@ h3 {
 
 span.date{
 	display: block;
-	max-height: 50px;
 	line-height: 50px;
-	margin-bottom: 9px;
 }
+
+#achat-billets span.emphasized{
+	display: block;
+
+}
+
 
 .logo-lieu{
 	margin-top: 21px;
@@ -97,29 +126,17 @@ span.date{
 	text-transform: uppercase;
 }
 
-
-/* Footer Contact Facebook	*/
- footer{
- 	background-color:transparent;
- 	font-size: 80%;
- 	color: #D4D4D4;
- }
-
- #contact-fb{
- }
-
-#facebook{
-	color: #ca0032;
-}
-
-@media (max-width: 768px){
-	#logo, #achat-billets, .row#description{
-		margin-bottom: 60px;
+@media (max-width: 991px){
+	.container{
+		margin-top: 80px;
 	}
 
-	#logo img{
-		width: 90%;
-		margin : 0 auto;
+	#achat-billets, .row#description{
+		margin-bottom: 30px;
+	}
+
+	#logo img, #achat-billets{
+		padding: 0 5%;
 	}
 
 	h3, #achat-billets span.emphasized, .btn-lg {
@@ -128,6 +145,24 @@ span.date{
 
 	span.date, #description .content{
 		font-size: 300%;
+	}
+
+	 .construction-banner{
+ 		position: static;
+ 	}
+
+	.construction-message{
+		font-style: italic;
+	}
+
+	.icon-fb{
+		top: -6px;
+right: 15px;
+padding: 21px;
+	}
+
+	.btn-lg{
+		width: 75%;
 	}
 
 }

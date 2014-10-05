@@ -1,22 +1,20 @@
-/*$(document).ready(function() {
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    $('.container').css('min-height', windowHeight);
-  };
-  setHeight();
-  
-  $(window).resize(function() {
-    setHeight();
-  });
-});
+function onResize() {
+	if ($(window).width() > 1024 ) {
+		setMarginAchat();
+	} else {
+		$('h3').css('margin-top', 30);
+	}
+}
 
-// If you don't care about changing the height when the window resizes then you can use the following simplified version instead:
-*/
+function setMarginAchat() {
+	var logoHeight = $('#logo').innerHeight();
+	var achatHeight = $('#achat-billets').innerHeight();
+	
+	$('#achat-billets').css('margin-top', (logoHeight - achatHeight) * 1/2);
+	$('#achat-billets').css('margin-bottom', (logoHeight - achatHeight) * 1/2);
+};
+
 $(document).ready(function() {
-   windowHeight = $(window).innerHeight();
-   logoHeight = $('#logo').innerHeight();
-   contentHeight = $('.content-achat-billets').innerHeight();
-   btnHeight = $('.btn-lg').innerHeight();
-  $('#achat-billets').css('min-height', logoHeight);
-  $('.btn-lg').css('margin-top', logoHeight - contentHeight - 3*btnHeight);
- });
+  $(window).resize(onResize);
+  $(window).trigger("resize");
+});
