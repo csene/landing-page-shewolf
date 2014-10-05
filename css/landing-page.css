@@ -137,7 +137,7 @@ span.date{
 }
 
 @media (min-width: 990px) and (max-width: 1024px){
-	#main-content{
+	.row#main-content{
 		margin-bottom: 50px;
 	}
 
