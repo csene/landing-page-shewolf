@@ -35,12 +35,20 @@ span.emphasized {
 }
 
 /* Contact Facebook	*/
-.contact-fb, .icon-fb{
+.contact-fb, .icon-fb, .btn-fb{
 	 	 background-color:#ca0032;
  	 margin-left: auto;
  	 margin-right: auto;
- 	 padding: 18px;
+ 	 padding: 21px;
 }
+
+.construction-message{
+	color: #d4d4d4;
+}
+
+	.contact-fb, .text-fb{
+		display: none;
+	}
 
  .icon-fb{
  	position: absolute;
@@ -49,14 +57,15 @@ span.emphasized {
  	border-radius: 6px;
  }
 
-.construction-message{
+.btn-fb{
+	border-radius: 6px;
+	padding: 9px;
+
 }
 
-
- .contact-fb{
-
- }
-
+.btn-fb img{
+	height: 24px;
+}
 
 /*	Contenu principal	*/
 .row#main-content{
@@ -135,6 +144,11 @@ span.date{
 		margin-bottom: 30px;
 	}
 
+	#description .content{
+		padding: 0 3%;
+		line-height: normal;
+	}
+
 	#logo img, #achat-billets{
 		padding: 0 5%;
 	}
@@ -148,17 +162,17 @@ span.date{
 	}
 
 	 .construction-banner{
- 		position: static;
+ 		
  	}
 
 	.construction-message{
-		font-style: italic;
+		padding: 18px;
 	}
 
 	.icon-fb{
 		top: -6px;
 right: 15px;
-padding: 21px;
+
 	}
 
 	.btn-lg{
