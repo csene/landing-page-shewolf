@@ -19,7 +19,7 @@ body{
 
 
 span.date, #description .content{
-	font-size: 270%;
+	font-size: 330%;
 }
 /*	Description	*/
 .row#description{
@@ -59,7 +59,7 @@ span.emphasized {
 
 .btn-fb{
 	border-radius: 6px;
-	padding: 9px;
+	padding: 12px 9px;
 
 }
 
@@ -70,6 +70,7 @@ span.emphasized {
 /*	Contenu principal	*/
 .row#main-content{
 	padding: 0;
+	margin-bottom: 30px;
 }
 
 /*	Colonne Logo	*/
