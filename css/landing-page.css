@@ -180,5 +180,17 @@ right: 15px;
 		width: 75%;
 	}
 
+		.text-fb{
+		display: inline-block;
+	}
+
+	.btn-fb{
+		display: none;
+	}
+
+	.contact-fb{
+		display: block;
+	}
+
 }
 
