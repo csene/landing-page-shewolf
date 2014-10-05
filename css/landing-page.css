@@ -13,17 +13,17 @@ body{
 }
 
 .container{
-	margin: 30px 0 0 0;
+	margin: 3% 0;
 	width: 100%;
 }
 
 /*	Description	*/
 .row#description{
-
+	margin-bottom: 1%;
 }
 
 #description .content{
-	font-size: 210%;
+	font-size: 270%;
 	text-transform: uppercase;
 }
 
@@ -33,12 +33,12 @@ span.emphasized {
 
 /*	Contenu principal	*/
 .row#main-content{
-	padding: 0	6%;
+	padding: 0;
 }
 
 /*	Colonne Logo	*/
-#logo{
-
+#logo, #achat-billets{
+	padding: 0;
 }
 
 #logo img{
@@ -49,7 +49,10 @@ span.emphasized {
 /*	Bloc Achat des billets	*/
 
 h3 {
-	margin-top: 0;
+	font-size: 180%;
+	font-weight: 300;	
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .btn-primary, .btn-primary:active{
@@ -69,12 +72,23 @@ h3 {
 
 
 #achat-billets{
-	margin-top: 60px;
+
+}
+
+#achat-billets span.emphasized{
+	font-size: 180%;
 }
 
 span.date{
 	display: block;
-	font-size: 150%;
+	max-height: 50px;
+	line-height: 50px;
+	font-size: 270%;
+	margin-bottom: 9px;
+}
+
+.logo-lieu{
+	margin-top: 21px;
 }
 
 .lieu-event{
