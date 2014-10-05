@@ -1,5 +1,7 @@
 body{
-	font-family: "futura-pt";
+	font-family: "futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 300;
 	background-color:#151517;
 	color: #ededed;
 	text-align: center;
