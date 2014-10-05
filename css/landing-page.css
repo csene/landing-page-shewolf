@@ -136,6 +136,17 @@ span.date{
 	text-transform: uppercase;
 }
 
+@media (min-width: 990px) and (max-width: 1024px){
+	#main-content{
+		margin-bottom: 50px;
+	}
+
+	#logo{
+		margin-top: 40px;
+	}
+}
+
+
 @media (max-width: 991px){
 	.container{
 		margin-top: 80px;
