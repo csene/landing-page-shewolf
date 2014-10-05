@@ -1,0 +1,93 @@
+body{
+	font-family: "futura-pt";
+	background-color:#151517;
+	color: #ededed;
+	text-align: center;
+}
+
+.container{
+	margin: 30px 0 0 0;
+	width: 100%;
+}
+
+/*	Description	*/
+.row#description{
+
+}
+
+#description .content{
+	font-family: arial;
+	font-size: 210%;
+	text-transform: uppercase;
+}
+
+span.emphasized {
+	color: #ca0032;
+}
+
+/*	Contenu principal	*/
+.row#main-content{
+	padding: 0	6%;
+}
+
+/*	Colonne Logo	*/
+#logo{
+
+}
+
+#logo img{
+	width: 100%;
+	margin: 10px	 0;
+}
+
+/*	Bloc Achat des billets	*/
+
+h3 {
+	margin-top: 0;
+}
+
+.btn-primary, .btn-primary:active{
+	background-color: #ca0032;
+}
+
+.btn-primary:hover
+{
+	background-color: #E41A4C;
+}
+
+.btn-lg{
+	width : 50%;
+	margin : 30px auto;
+	line-height: 1.5em;
+}
+
+
+#achat-billets{
+	margin-top: 60px;
+}
+
+span.date{
+	display: block;
+	font-size: 150%;
+}
+
+.lieu-event{
+	text-transform: uppercase;
+}
+
+
+/* Footer Contact Facebook	*/
+ footer{
+ 	background-color:transparent;
+ 	font-size: 80%;
+ 	color: #D4D4D4;
+ }
+
+ #contact-fb{
+ }
+
+#facebook{
+	color: #ca0032;
+}
+
+
