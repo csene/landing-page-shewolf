@@ -105,7 +105,7 @@ h3 {
 }
 
 .btn-lg{
-	width : 50%;
+	width : 60%;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -136,6 +136,24 @@ span.date{
 	text-transform: uppercase;
 }
 
+@media (min-width: 1280px) {
+
+.construction-message{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.btn-lg{
+	width: 75%;
+}
+
+}
+
+
+
+
+
 @media (min-width: 990px) and (max-width: 1024px){
 	.row#main-content{
 		margin-bottom: 50px;
@@ -146,7 +164,7 @@ span.date{
 	}
 
 	.btn-lg{
-		width: 50%;
+		width: 60%;
 	}
 }
 
