@@ -144,6 +144,10 @@ span.date{
 	#logo{
 		margin-top: 40px;
 	}
+
+	.btn-lg{
+		width: 50%;
+	}
 }
 
 
