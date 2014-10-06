@@ -99,7 +99,7 @@ h3 {
 	background-color: #ca0032;
 }
 
-.btn-primary:hover
+.btn-primary:hover, .btn-fb:hover, .icon-fb:hover
 {
 	background-color: #E41A4C;
 }
