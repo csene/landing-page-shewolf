@@ -136,24 +136,6 @@ span.date{
 	text-transform: uppercase;
 }
 
-@media (min-width: 1280px) {
-
-.construction-message{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-.btn-lg{
-	width: 75%;
-}
-
-}
-
-
-
-
-
 @media (min-width: 990px) and (max-width: 1024px){
 	.row#main-content{
 		margin-bottom: 50px;
@@ -175,7 +157,7 @@ span.date{
 	}
 
 	#achat-billets, .row#description{
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 
 	#description .content{
