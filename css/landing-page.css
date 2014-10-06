@@ -102,6 +102,8 @@ h3 {
 .btn-primary:hover, .btn-fb:hover, .icon-fb:hover
 {
 	background-color: #E41A4C;
+	  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 
 .btn-lg{
