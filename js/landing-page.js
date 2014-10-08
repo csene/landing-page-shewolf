@@ -1,3 +1,4 @@
+/*
 function onResize() {
 	if ($(window).width() > 1024 ) {
 		setMarginAchat();
@@ -18,3 +19,4 @@ $(document).ready(function() {
   $(window).resize(onResize);
   $(window).trigger("resize");
 });
+*/
